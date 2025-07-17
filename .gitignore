@@ -1,5 +1,5 @@
 *.xlsx
 *.xls
-node_modules/    # Se usar Node.js
-*.log            # Arquivos de log
-*.tmp            # Arquivos temporários
+node_modules/
+*.log
+*.tmp

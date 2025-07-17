@@ -14,6 +14,7 @@ Um dashboard analítico completo para análise de notas fiscais, desenvolvido co
 ## 📊 KPIs Implementados
 
 ### Financeiros Básicos
+
 1. Faturamento Bruto Total
 2. Faturamento Líquido Total
 3. Número de Notas
@@ -21,6 +22,7 @@ Um dashboard analítico completo para análise de notas fiscais, desenvolvido co
 5. Ticket Médio Líquido
 
 ### Análise de Recebimento
+
 6. Top 5 CNPJs - % Receita
 7. Valor Recebido
 8. Valor em Aberto
@@ -28,6 +30,7 @@ Um dashboard analítico completo para análise de notas fiscais, desenvolvido co
 10. DSO (Dias Médios para Receber)
 
 ### Status de Pagamento
+
 11. % Notas Pagas no Prazo
 12. % Notas Pagas com Atraso
 13. % Notas Antecipadas
@@ -35,6 +38,7 @@ Um dashboard analítico completo para análise de notas fiscais, desenvolvido co
 15. Atraso Médio - Notas Atrasadas
 
 ### Previsões e Aging
+
 16. Previsão de Recebimento (≤ 30d)
 17. Aging 0-30 dias
 18. Aging 31-60 dias
@@ -44,28 +48,34 @@ Um dashboard analítico completo para análise de notas fiscais, desenvolvido co
 22. Maior Atraso Individual
 
 ### Impostos
+
 23. ISS Retido Total
 24. ISS Retido % sobre Bruto
 25. ISS Retido médio por NF
 
 ### Qualidade dos Dados
+
 26. Linhas sem Status de Pagamento
 
 ## 🔧 Instalação e Uso
 
 ### Instalação
+
 1. Extraia o arquivo ZIP em qualquer diretório
 2. Abra o arquivo `index.html` em qualquer navegador moderno
 3. Pronto! O dashboard está funcionando
 
 ### Como Usar
+
 1. **Upload de Dados**: Clique no botão "Upload" e selecione sua planilha Excel (.xlsx)
 2. **Aplicar Filtros**: Use o menu lateral para filtrar por período, estado, CNPJ ou status
 3. **Alternar Tema**: Clique no ícone de sol/lua para alternar entre tema claro e escuro
 4. **Visualizar KPIs**: Todos os 27 KPIs são calculados automaticamente e atualizados em tempo real
 
 ### Formato da Planilha
+
 A planilha deve conter uma aba chamada "Notas Fiscais" com as seguintes colunas:
+
 - Número
 - Razão Social
 - Data de Emissão
@@ -85,6 +95,7 @@ A planilha deve conter uma aba chamada "Notas Fiscais" com as seguintes colunas:
 ## 🎨 Funcionalidades
 
 ### Sistema de Filtros
+
 - **Período**: Seleção de intervalo de datas com calendário
 - **Estado (UF)**: Dropdown com todos os estados presentes nos dados
 - **CNPJ**: Dropdown organizado por razão social
@@ -92,12 +103,14 @@ A planilha deve conter uma aba chamada "Notas Fiscais" com as seguintes colunas:
 - **Persistência**: Filtros são salvos automaticamente no navegador
 
 ### Interface
+
 - **Design Responsivo**: Funciona perfeitamente em desktop, tablet e mobile
 - **Tema Claro/Escuro**: Alternância automática com persistência da preferência
 - **Navegação Intuitiva**: Menu lateral retrátil com resumo dos dados
 - **Feedback Visual**: Indicadores de status e alertas contextuais nos KPIs
 
 ### Performance
+
 - **Processamento Rápido**: Cálculos otimizados para grandes volumes de dados
 - **Atualização Instantânea**: Filtros aplicados automaticamente com debounce
 - **Memória Eficiente**: Gerenciamento inteligente de estado da aplicação
@@ -163,4 +176,3 @@ Este dashboard foi desenvolvido para ser auto-suficiente e não requer suporte t
 **Compatibilidade**: Chrome 90+, Firefox 88+, Safari 14+, Edge 90+  
 **Tamanho**: < 400 KB total  
 **Performance**: Testado com até 5.000 registros
-
